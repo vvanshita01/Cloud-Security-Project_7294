@@ -2,7 +2,7 @@
 
 **Objective:** To automate the deployment of Azure infrastructure resources using Terraform, including a Linux virtual machine, network components (virtual network, subnet, network interface), and role assignments.
 
-**Key Components:**
+**Key Components:**  
 **Azure Linux Virtual Machine:** Provision a Linux virtual machine with specified configuration settings such as size, OS image, SSH key, and managed identity.  
 **Network Resources:** Create network-related resources such as a virtual network, subnet, and network interface to ensure connectivity for the virtual machine.  
 **Role Assignment:** Assign the "Contributor" role to the managed identity of the virtual machine, granting it full access permissions to manage Azure resources within the specified scope.  
